@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="myButton">
+        <h1>GEORGE'S DARKROOM</h1>
+    </button>
+    <div class="menu">
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li> 
+            <li><a target="_blank" href="astrophotography.html">Astro-Photography</a></li>
+            <li><a target="_blank" href="macrophotography.html">Macro-Photography</a></li>
+            <li><a target="_blank" href="flinders2022.html">Flinders-Island</a></li>
+            <li><a target="_blank" href="myGarden.html">Gardening</a></li>
+            <li><a target="_blank" href="cats.html">Cats</a></li>
+            <li><a target="_blank" href="melbourne.html">Melbourne The Place To Be</a></li>
+            <li><a target="_blank" href="eurotrip.html">Droning</a></li>
+        </ul>
+    </div>
+    
+    <div class="container-moon">
+        <div class="MELBCBDNIGHT"><img src="./IMAGES/MelbCbdNight.jpg" width='1300px'></div>
+        <p><em>Melbourne CBD - <strong>Australia</strong></em></p>
+        <div id="moo1"><img src="./IMAGES/moon2.png" width="90" height="90"></div>
+    </div>
+    <a target="_blank" href="cats.html"><img class="orangeCat" src="./IMAGES/CATS/CATS160.JPG"
+        alt="Cute orange cat lying on its back"><br></a>
+
+    <audio controls id='myAudio' src="calm-down.mp3"></audio>
+    <button onclick='playSound()'>Calm Down</button><br>
+    <img class="orangeCat" src="./IMAGES/CATS/CATS099.JPG"
+        alt="Cute orange cat lying on its back"><br>
+    <div class="grid-container">
+        <img id="gallery" class="grid-item" src="./IMAGES/MACRO004.JPG">
+        <img id="gallery" class="grid-item" src="./IMAGES/MACRO002.jpg">
+        <img id="gallery" class="grid-item" src="./IMAGES/Melbourne005.jpg">
+        <img id="gallery" class="grid-item" src="./IMAGES/MACRO001.jpg">
+    </div>
+    <div>
+        <img id="gallery" src="./IMAGES/MACRO003.JPG" width='1000px' style='border-radius: 100%;'><br>
+        <button onclick="prevPhoto()">Previous</button>
+        <button onclick="nextPhoto()">Next</button>
+      </div>
+
+        <!-- <div class="moo1 moon"><img id="moo" src="./IMAGES/moon2.png"></div> -->
+
+    </div>
+</body>
+
+</html>

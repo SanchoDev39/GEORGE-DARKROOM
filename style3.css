@@ -1,0 +1,143 @@
+﻿body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.link {
+    border: 2px solid darkBlue;
+    color: black;
+    width: 50px;
+    padding: 10px;
+    background: linear-gradient(black, darkgrey, white, black)
+}
+.myButton {
+    background: black;
+}
+
+h1 {
+    border: none;
+    align-self: center;
+    color: black;
+    padding: 30px;
+    top: 10px;
+    background: linear-gradient(90deg, black, darkgrey, white, black);
+}
+
+
+.container1 {
+    display: grid;
+    grid-template-rows: repeat(2, 70%);
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+    position: relative;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+.container-melbourne {
+    animation-name: change-background;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #282828;
+    margin: 15px;
+    flex-wrap: wrap;
+
+
+}
+
+.mn {
+    border-radius: 100%;
+    border: double 2px black;
+    margin: 20px;
+    padding: 15px;
+    background-color: rgb(7, 93, 163);
+    width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.mn:hover {
+   transform: scale(2.2);
+   border-radius: 0%;
+   padding: 2px;
+   background-color: #282828;
+}
+
+@keyframes change-background {
+    0% {
+        background: rgb(72, 70, 53);
+        transform: (10px, 10px);
+    }
+
+    10% {
+        background: rgb(88, 77, 64);
+        transform: (10px, 10px);
+    }
+
+    20% {
+        background: rgb(88, 93, 93);
+        transform: (10px, 10px);
+    }
+
+    30% {
+        background: rgb(36, 37, 38);
+        transform: (10px, 10px);
+    }
+
+    40% {
+        background: rgba(34, 34, 35, 0.531);
+        transform: (10px, 10px);
+    }
+
+    50% {
+        background: rgb(23, 49, 79);
+        transform: (10px, 10px);
+    }
+
+    60% {
+        background: rgb(8, 49, 131);
+        transform: (10px, 10px);
+    }
+
+    70% {
+        background: rgb(60, 83, 81);
+        transform: (10px, 10px);
+    }
+
+    80% {
+        background: rgba(47, 69, 95, 0.962);
+        transform: (10px, 10px);
+    }
+
+    90% {
+        background: rgb(78, 60, 70);
+        transform: (10px, 10px);
+    }
+
+    100% {
+        background: rgba(85, 89, 96, 0.986);
+        transform: (10px, 10px);
+    }
+}
